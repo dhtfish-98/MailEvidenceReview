@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools==82.0.1", "wheel==0.48.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mail-evidence-review"
+version = "0.1.0"
+description = "Offline byte-origin EML MIME attachment and declared timeline evidence"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "licenses/*.txt"]
+dependencies = []
+
+[project.scripts]
+mail-evidence-review = "mail_evidence_review.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mail_evidence_review = ["py.typed"]

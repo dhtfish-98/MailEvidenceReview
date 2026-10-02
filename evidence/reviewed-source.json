@@ -1,0 +1,163 @@
+{
+  "project": "MailEvidenceReview",
+  "kind": "parent full selected deliverable review inventory",
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 732,
+      "sha256": "1f5cd6674bd31fc5702e0b570de228f3305ea62b2faa59bbef2eaf6e801afd89",
+      "review_scope": "entire file"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 59,
+      "sha256": "8e4b74a417041169bec38887ab01e2b6bd52253fb53be6497bd9ed08cae19ae8",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "bytes": 1766,
+      "sha256": "cc111c29b39a3e9c2172afd5093cb51250b9930d761a8dd5d73ac7814b402da7",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "MANIFEST.in",
+      "bytes": 213,
+      "sha256": "d7b97d0b58d972a9fbb80d4a5e1c38f6479e8ec4bb408ca7441c0ebdc2f3cf9f",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1033,
+      "sha256": "443c5342f1cdbc0f1d517f55172ab90cbef7d9ab9e3155d3d806cba6f46ce771",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6159,
+      "sha256": "821fb0c6a9b8039d6d074293b9c4f2ca1066095b1ba264598b33c77ed2e24f68",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "SOURCE_REVIEW.json",
+      "bytes": 5639,
+      "sha256": "ec50c04f7bd5587fcf878ea732b9c27a0a77806ae86e8acbd1aaaccf04faf5b0",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 2125,
+      "sha256": "cc49a06137031b269a338d7274eb379e43228eeb677a7a41ed177443408c7c88",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "licenses/mail-parser-Apache-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "licenses/mail-parser-NOTICE.txt",
+      "bytes": 593,
+      "sha256": "60fa93b2ebffb599093388aa9fd81c989d42446368944ed07df7ea033bf9a79f",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 588,
+      "sha256": "44ccf81aebd92eadfe8aedafdb38100512b5d4b0b109ae2345a47106f928976e",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "src/mail_evidence_review/__init__.py",
+      "bytes": 203,
+      "sha256": "c9b32770277b87cf87119fb52b705729eca681269d1406e713d51dfd38f735a1",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "src/mail_evidence_review/__main__.py",
+      "bytes": 47,
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "src/mail_evidence_review/api.py",
+      "bytes": 880,
+      "sha256": "cc3220bf5855d7ba4e0353a3e41a0bebd4d42e7e9582d486b17998470d848898",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "src/mail_evidence_review/cli.py",
+      "bytes": 1433,
+      "sha256": "5b5510be0d9e93612ea983658497a541f755db98629d5938c946503f5761b65e",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "src/mail_evidence_review/contracts.py",
+      "bytes": 3458,
+      "sha256": "189e21067cbeeb7f41294a94f17498bdc84552c3406e48871bdb7a0e4dbf0cf4",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "src/mail_evidence_review/encoding.py",
+      "bytes": 2745,
+      "sha256": "ea8e826912977d81709be410328d42aa7c8deaf4b75f88d70c7f255472f72c17",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "src/mail_evidence_review/files.py",
+      "bytes": 2063,
+      "sha256": "18279de3b3b0671f89d1d1ded70f835d4d68c1cdd0fe333a10236715cf19ef23",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "src/mail_evidence_review/mime.py",
+      "bytes": 7750,
+      "sha256": "ffdf32190ee7e809f33dca9e7806c1bdb830ef878aef20c4bc4a688e5cfef31a",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "src/mail_evidence_review/parameters.py",
+      "bytes": 6914,
+      "sha256": "1e756981d4b7b15260316b456dcddb9b5493794b832d565679cd0b564b683b62",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "src/mail_evidence_review/py.typed",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "src/mail_evidence_review/render.py",
+      "bytes": 1014,
+      "sha256": "cb2139b354afecbe4dc848f3c23429144cff2fa8ab590f1702134501009a10ee",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "src/mail_evidence_review/timeline.py",
+      "bytes": 8566,
+      "sha256": "54707da81079718f8f3c7c8417db3ebff16c6c8734613fed9f7f3dd89e384089",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "src/mail_evidence_review/wire.py",
+      "bytes": 3284,
+      "sha256": "55169f776222884cda0418d424dbbe857deb15effb785f6c237640918dce7184",
+      "review_scope": "entire file"
+    },
+    {
+      "path": "tests/test_review.py",
+      "bytes": 21412,
+      "sha256": "bff5834b280eeccfe2592798b0353e8a4804759d524b4f66cff0115588db0d02",
+      "review_scope": "entire file"
+    }
+  ],
+  "bounds": "All listed runtime/tests/docs/package/CI/source evidence/license/NOTICE files read in full; this self inventory excluded; upstream scope separately SOURCE_REVIEW.json; no package/remote CI success inferred"
+}

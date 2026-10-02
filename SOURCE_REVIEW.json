@@ -1,0 +1,146 @@
+{
+  "project": "MailEvidenceReview",
+  "upstream": "SpamScope/mail-parser",
+  "commit": "6efa72274bed92e6ff489f6e2d7b8f52fa683440",
+  "selected_full_files": [
+    {
+      "path": "src/mailparser/__init__.py",
+      "bytes": 1006,
+      "lines": 37,
+      "sha256": "39708898cd5c9fdcafd559c90f304fb88d32e2d7a9af13870b791d7022db69eb",
+      "fixed_git_blob_sha1": "72b1ef7a1eca5bcc044aee089d082db5e86c2029",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    },
+    {
+      "path": "src/mailparser/__main__.py",
+      "bytes": 8840,
+      "lines": 346,
+      "sha256": "c8f13fc14b1e92247af1e20281f6dd9972f0dc8bd8b539f211c062cf4d19981b",
+      "fixed_git_blob_sha1": "2db45a47ed7f7aec816f835014f0eabbc89ae2a4",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    },
+    {
+      "path": "src/mailparser/addresses.py",
+      "bytes": 15524,
+      "lines": 422,
+      "sha256": "e8d949d4fe6f0801f493ba0f099539e33ca5c7e4c9f2999ec4a0cfdbef829dae",
+      "fixed_git_blob_sha1": "8b6111fce814cbed9f2ae9b1e04e0a17c4d52d20",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    },
+    {
+      "path": "src/mailparser/const.py",
+      "bytes": 3798,
+      "lines": 104,
+      "sha256": "c3175499e4a27fab780db8c2fc6b56192c0cf84cc3c8550d86a3c3d8c6417713",
+      "fixed_git_blob_sha1": "de68a551acaf5d41516d9304414534a85d3376b7",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    },
+    {
+      "path": "src/mailparser/core.py",
+      "bytes": 46951,
+      "lines": 1270,
+      "sha256": "4421625b6f479d4179c9110b27498fb0177046e661834af58ea948e4453c2891",
+      "fixed_git_blob_sha1": "adc58d01610d1d74b9211d44be326cc089d02e47",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    },
+    {
+      "path": "src/mailparser/dates.py",
+      "bytes": 6763,
+      "lines": 195,
+      "sha256": "fdfd078244dc128a1c171954e818347ced1f464f41c3fc7d9a563def1ae7c2c2",
+      "fixed_git_blob_sha1": "62178b131f6b5781664f455a65260013bf6d7b41",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    },
+    {
+      "path": "src/mailparser/exceptions.py",
+      "bytes": 2329,
+      "lines": 93,
+      "sha256": "27b49a1804a946d09626a3d52a3497b353786814ff56597e520b546ad4cf4c8f",
+      "fixed_git_blob_sha1": "d6ced5a165e018e72731cc0df34592914bf42545",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    },
+    {
+      "path": "src/mailparser/received.py",
+      "bytes": 8678,
+      "lines": 242,
+      "sha256": "dff06c1c57b4076a7158ee80dc9d2e8b9ef29786fb8dce4e631e6778913246eb",
+      "fixed_git_blob_sha1": "f4c366b53116f7d1f0a18c84d52dafa405a4aaa7",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    },
+    {
+      "path": "src/mailparser/utils.py",
+      "bytes": 40784,
+      "lines": 1246,
+      "sha256": "af4fa95dc56b90d3431e4f2cb8264381139b05d3f67f1bf5cc6a42f15dc17b18",
+      "fixed_git_blob_sha1": "44bbce309f3b92ba65eee12a1b5f204d463d97ce",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    },
+    {
+      "path": "src/mailparser/version.py",
+      "bytes": 647,
+      "lines": 19,
+      "sha256": "f9331f784ccc341ebef5998d598f20538afc98bd4ee13ae0154c86f9365b4702",
+      "fixed_git_blob_sha1": "f5c7f186d64283ecf1710d80d63561ab33250baa",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    },
+    {
+      "path": "README.md",
+      "bytes": 33579,
+      "lines": 712,
+      "sha256": "60621d3794a4f34e350ce1d953fa56197d3ced14cc3acb626058bbbb6ed23813",
+      "fixed_git_blob_sha1": "a869ab0ad63700cc883975123c192d2fe96c5587",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 2714,
+      "lines": 115,
+      "sha256": "978c2cb4808a2179ce29f65462839d6a1b36cff944606c56cc75c81f173927b2",
+      "fixed_git_blob_sha1": "15b9247d32d531e011128e1110f61d681331355f",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11358,
+      "lines": 202,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "fixed_git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    },
+    {
+      "path": "NOTICE.txt",
+      "bytes": 593,
+      "lines": 13,
+      "sha256": "60fa93b2ebffb599093388aa9fd81c989d42446368944ed07df7ea033bf9a79f",
+      "fixed_git_blob_sha1": "f94f7dee49f7d648eb2f4a2bb81882034fa8047d",
+      "remote_fixed_raw_match": true,
+      "review": "entire selected file"
+    }
+  ],
+  "selected_runtime_modules": 10,
+  "selected_runtime_lines": 3974,
+  "whole_repository_semantic_audit": false,
+  "upstream_execution": false,
+  "outlook_attachment_write_sender_trust_features_removed": true,
+  "license_substantive_text": "Complete original Apache-2.0, identical to previously fully read Apache text plus one final newline",
+  "primary_references": [
+    "https://www.rfc-editor.org/rfc/rfc5322",
+    "https://www.rfc-editor.org/rfc/rfc2045",
+    "https://www.rfc-editor.org/rfc/rfc2046",
+    "https://www.rfc-editor.org/rfc/rfc2231"
+  ],
+  "new_implementation_contract": "Independent positioned EML wire/header/MIME tree scanner, bounded transfer/charset decoding and Received/date evidence; default private digest/position reports, filename opt-in text only. No mail-parser runtime wrapper, Outlook conversion, sender trust, network, attachment writes or HTML-body rendering."
+}
