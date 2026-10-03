@@ -4,3 +4,10 @@ build/
 *.egg-info/
 __pycache__/
 *.pyc
+
+# All generated build outputs and staging are local.
+!/Build/
+/Build/*
+!/Build/.gitignore
+__pycache__/
+*.py[cod]
