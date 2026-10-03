@@ -1,17 +1,8 @@
 MailEvidenceReview
-Copyright 2026 dhtfish98.
+Copyright 2026 dhtfish98. New bounded EML/MIME byte-evidence parser, Apache-2.0.
 
-Independent implementation by dhtfish98 of the selected local EML defensive
-evidence scope, informed by SpamScope/mail-parser at fixed commit
+Design reference: SpamScope/mail-parser at
 6efa72274bed92e6ff489f6e2d7b8f52fa683440 and the cited IETF specifications.
-The selected upstream files were reviewed as source material, not executed.
-No upstream Python runtime is included or imported. This is a new byte parser,
-not an upstream wrapper, mail client or behavior-equivalent full platform.
-
-Complete original Apache-2.0 license and NOTICE are retained in licenses/.
-Original SpamScope contributors retain their original work and credits.
-The new snapshot reader is shared with this batch's CSPPolicyLens engineering;
-it is not claimed as a distinct original parsing contribution.
-New implementation author: dhtfish98.
-This does not imply upstream endorsement, sole human authorship, contribution
-to SpamScope/mail-parser, actual safeguard restriction or CVP approval.
+No original runtime, captured mail or documentation is included or imported.
+The secure snapshot-reader pattern is shared with CSPPolicyLens engineering;
+that reuse is not a new parsing contribution. Source facts remain in ORIGIN.md.

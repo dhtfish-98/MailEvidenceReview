@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mail-evidence-review"
-version = "0.1.1"
+version = "0.1.2"
 description = "Offline byte-origin EML MIME attachment and declared timeline evidence"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "Apache-2.0"
-license-files = ["LICENSE", "NOTICE", "licenses/*.txt"]
+license-files = ["LICENSE", "NOTICE"]
 authors = [{name = "dhtfish98"}]
 dependencies = []
 

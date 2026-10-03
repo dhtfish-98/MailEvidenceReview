@@ -1,7 +1,8 @@
 include LICENSE NOTICE README.md ORIGIN.md DEFENSIVE_SCOPE.md VALIDATION.md SOURCE_REVIEW.json
-recursive-include licenses *.txt
 recursive-include tests *.py
 recursive-include evidence *.json
 recursive-include .github *.yml
 
 include SOURCE_MANIFEST.json ATTRIBUTION_UPDATE.json
+
+include LICENSE_CLEANUP.json

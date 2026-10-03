@@ -1,9 +1,10 @@
 {
   "schema": 1,
   "project": "MailEvidenceReview",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "implementation_author": "dhtfish98",
   "self_excluded_to_avoid_recursive_hash": true,
+  "current_validation": "LICENSE_CLEANUP.json",
   "files": [
     {
       "path": ".github/workflows/verify.yml",
@@ -17,8 +18,8 @@
     },
     {
       "path": "ATTRIBUTION_UPDATE.json",
-      "sha256": "162710fa8a7aadf13c4417131db365f3dadebe52258b65db9810fdbe8c2df10f",
-      "bytes": 937
+      "sha256": "614a26e9bed45a086123bc23f6e2067585cdca89e8e10722367a138f462f54e1",
+      "bytes": 1053
     },
     {
       "path": "DEFENSIVE_SCOPE.md",
@@ -31,19 +32,24 @@
       "bytes": 11358
     },
     {
+      "path": "LICENSE_CLEANUP.json",
+      "sha256": "ca6aeab7a88fd5ce8605c399f9c18deda4f9a3355efc1bc921baa3c82f78453e",
+      "bytes": 837
+    },
+    {
       "path": "MANIFEST.in",
-      "sha256": "edc7a8cfc4407cba82308f116333264d6ed5a48006077e47da9d476b50361772",
-      "bytes": 277
+      "sha256": "ecb543bee30a805ec050c93367e8b32554a5845397342e091482730b036ef035",
+      "bytes": 274
     },
     {
       "path": "NOTICE",
-      "sha256": "250e4f0d7d12b1f1843c75cbcb5b763ce117762b80c263b2074d3f218a1fe4ea",
-      "bytes": 972
+      "sha256": "1d39c0306190eac1929ed4ac9fe49c08caf15886a29bb9523896535afd86b078",
+      "bytes": 454
     },
     {
       "path": "ORIGIN.md",
-      "sha256": "738d838ebe3b28d3a3aaa5f333397884d7eac512925ccd77b500b3eba7daee31",
-      "bytes": 931
+      "sha256": "905bae1cf370caa2248038266ce17f8d28548d7abf0d138b6a2088a48022a849",
+      "bytes": 986
     },
     {
       "path": "README.md",
@@ -57,32 +63,22 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "01a351090ce112b029a412845643c01d7d7c0807599bd550451c61b83d285497",
-      "bytes": 3840
+      "sha256": "481e7e8ceca29f125bf39729e7df0ae67795cc53f6982c178cdbef503ce37b90",
+      "bytes": 4939
     },
     {
       "path": "evidence/reviewed-source.json",
-      "sha256": "76ef4b596680e06008fc71c144a8f84abe493c07f835f59671f0dd8aae5ac268",
-      "bytes": 6645
-    },
-    {
-      "path": "licenses/mail-parser-Apache-2.0.txt",
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "bytes": 11358
-    },
-    {
-      "path": "licenses/mail-parser-NOTICE.txt",
-      "sha256": "60fa93b2ebffb599093388aa9fd81c989d42446368944ed07df7ea033bf9a79f",
-      "bytes": 593
+      "sha256": "9ee8c55d676a669e9ea4c6ebbb99a1feff878146120b2efa0e3b58b4cfedee34",
+      "bytes": 6426
     },
     {
       "path": "pyproject.toml",
-      "sha256": "290d93191ffed622a20fdf26ba91635b6843a3713a932656e6d73b5fdedbb181",
-      "bytes": 621
+      "sha256": "66e4ab34e0145841310be4d276c82023f964b386e597df8cc9f2c73f1e73f974",
+      "bytes": 603
     },
     {
       "path": "src/mail_evidence_review/__init__.py",
-      "sha256": "e96101eaab9ffc9db9d72af3171b65b71e968a461bc733169107e566acab4b18",
+      "sha256": "cf67cf85dfe895c9712f5339725a3373e8827e6649ddb47b9524f061b181c32c",
       "bytes": 229
     },
     {
