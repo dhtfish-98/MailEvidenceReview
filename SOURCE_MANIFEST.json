@@ -1,187 +1,159 @@
 {
+  "schema": 1,
   "project": "MailEvidenceReview",
-  "kind": "parent full selected deliverable review inventory",
+  "version": "0.1.1",
+  "implementation_author": "dhtfish98",
+  "self_excluded_to_avoid_recursive_hash": true,
   "files": [
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 732,
       "sha256": "1f5cd6674bd31fc5702e0b570de228f3305ea62b2faa59bbef2eaf6e801afd89",
-      "review_scope": "entire file"
+      "bytes": 732
     },
     {
       "path": ".gitignore",
-      "bytes": 59,
       "sha256": "8e4b74a417041169bec38887ab01e2b6bd52253fb53be6497bd9ed08cae19ae8",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "DEFENSIVE_SCOPE.md",
-      "bytes": 1766,
-      "sha256": "cc111c29b39a3e9c2172afd5093cb51250b9930d761a8dd5d73ac7814b402da7",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 11358,
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "MANIFEST.in",
-      "bytes": 277,
-      "sha256": "edc7a8cfc4407cba82308f116333264d6ed5a48006077e47da9d476b50361772",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "NOTICE",
-      "bytes": 972,
-      "sha256": "250e4f0d7d12b1f1843c75cbcb5b763ce117762b80c263b2074d3f218a1fe4ea",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "README.md",
-      "bytes": 6708,
-      "sha256": "da7e13760d51e8757eca8add98bf106a942e10f3585050edc4a280931b0aa656",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "SOURCE_REVIEW.json",
-      "bytes": 5639,
-      "sha256": "ec50c04f7bd5587fcf878ea732b9c27a0a77806ae86e8acbd1aaaccf04faf5b0",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "VALIDATION.md",
-      "bytes": 3840,
-      "sha256": "01a351090ce112b029a412845643c01d7d7c0807599bd550451c61b83d285497",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "licenses/mail-parser-Apache-2.0.txt",
-      "bytes": 11358,
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "licenses/mail-parser-NOTICE.txt",
-      "bytes": 593,
-      "sha256": "60fa93b2ebffb599093388aa9fd81c989d42446368944ed07df7ea033bf9a79f",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "pyproject.toml",
-      "bytes": 621,
-      "sha256": "290d93191ffed622a20fdf26ba91635b6843a3713a932656e6d73b5fdedbb181",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "src/mail_evidence_review/__init__.py",
-      "bytes": 229,
-      "sha256": "e96101eaab9ffc9db9d72af3171b65b71e968a461bc733169107e566acab4b18",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "src/mail_evidence_review/__main__.py",
-      "bytes": 47,
-      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "src/mail_evidence_review/api.py",
-      "bytes": 880,
-      "sha256": "cc3220bf5855d7ba4e0353a3e41a0bebd4d42e7e9582d486b17998470d848898",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "src/mail_evidence_review/cli.py",
-      "bytes": 1433,
-      "sha256": "5b5510be0d9e93612ea983658497a541f755db98629d5938c946503f5761b65e",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "src/mail_evidence_review/contracts.py",
-      "bytes": 3458,
-      "sha256": "189e21067cbeeb7f41294a94f17498bdc84552c3406e48871bdb7a0e4dbf0cf4",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "src/mail_evidence_review/encoding.py",
-      "bytes": 2745,
-      "sha256": "ea8e826912977d81709be410328d42aa7c8deaf4b75f88d70c7f255472f72c17",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "src/mail_evidence_review/files.py",
-      "bytes": 2224,
-      "sha256": "5c7bcde9adb23bc3f6384ba2f7664608cb273183cd32f251389684404be3750b",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "src/mail_evidence_review/mime.py",
-      "bytes": 7750,
-      "sha256": "ffdf32190ee7e809f33dca9e7806c1bdb830ef878aef20c4bc4a688e5cfef31a",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "src/mail_evidence_review/parameters.py",
-      "bytes": 6914,
-      "sha256": "1e756981d4b7b15260316b456dcddb9b5493794b832d565679cd0b564b683b62",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "src/mail_evidence_review/py.typed",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "src/mail_evidence_review/render.py",
-      "bytes": 1014,
-      "sha256": "cb2139b354afecbe4dc848f3c23429144cff2fa8ab590f1702134501009a10ee",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "src/mail_evidence_review/timeline.py",
-      "bytes": 8566,
-      "sha256": "54707da81079718f8f3c7c8417db3ebff16c6c8734613fed9f7f3dd89e384089",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "src/mail_evidence_review/wire.py",
-      "bytes": 3284,
-      "sha256": "55169f776222884cda0418d424dbbe857deb15effb785f6c237640918dce7184",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "tests/test_review.py",
-      "bytes": 21412,
-      "sha256": "bff5834b280eeccfe2592798b0353e8a4804759d524b4f66cff0115588db0d02",
-      "review_scope": "entire file"
-    },
-    {
-      "path": "tests/test_safe_read_capabilities.py",
-      "bytes": 5929,
-      "sha256": "d9475d5aa2c120d5455629cbd5ecc42a021964746d5f312cc5f7139e29eb59f7",
-      "read_scope": "ENTIRE_CURRENT_FILE"
+      "bytes": 59
     },
     {
       "path": "ATTRIBUTION_UPDATE.json",
-      "bytes": 937,
       "sha256": "162710fa8a7aadf13c4417131db365f3dadebe52258b65db9810fdbe8c2df10f",
-      "read_scope": "ENTIRE_CURRENT_FILE"
+      "bytes": 937
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "cc111c29b39a3e9c2172afd5093cb51250b9930d761a8dd5d73ac7814b402da7",
+      "bytes": 1766
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "edc7a8cfc4407cba82308f116333264d6ed5a48006077e47da9d476b50361772",
+      "bytes": 277
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "250e4f0d7d12b1f1843c75cbcb5b763ce117762b80c263b2074d3f218a1fe4ea",
+      "bytes": 972
     },
     {
       "path": "ORIGIN.md",
-      "bytes": 931,
       "sha256": "738d838ebe3b28d3a3aaa5f333397884d7eac512925ccd77b500b3eba7daee31",
-      "read_scope": "ENTIRE_CURRENT_FILE"
+      "bytes": 931
+    },
+    {
+      "path": "README.md",
+      "sha256": "da7e13760d51e8757eca8add98bf106a942e10f3585050edc4a280931b0aa656",
+      "bytes": 6708
+    },
+    {
+      "path": "SOURCE_REVIEW.json",
+      "sha256": "ec50c04f7bd5587fcf878ea732b9c27a0a77806ae86e8acbd1aaaccf04faf5b0",
+      "bytes": 5639
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "01a351090ce112b029a412845643c01d7d7c0807599bd550451c61b83d285497",
+      "bytes": 3840
+    },
+    {
+      "path": "evidence/reviewed-source.json",
+      "sha256": "76ef4b596680e06008fc71c144a8f84abe493c07f835f59671f0dd8aae5ac268",
+      "bytes": 6645
+    },
+    {
+      "path": "licenses/mail-parser-Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "path": "licenses/mail-parser-NOTICE.txt",
+      "sha256": "60fa93b2ebffb599093388aa9fd81c989d42446368944ed07df7ea033bf9a79f",
+      "bytes": 593
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "290d93191ffed622a20fdf26ba91635b6843a3713a932656e6d73b5fdedbb181",
+      "bytes": 621
+    },
+    {
+      "path": "src/mail_evidence_review/__init__.py",
+      "sha256": "e96101eaab9ffc9db9d72af3171b65b71e968a461bc733169107e566acab4b18",
+      "bytes": 229
+    },
+    {
+      "path": "src/mail_evidence_review/__main__.py",
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+      "bytes": 47
+    },
+    {
+      "path": "src/mail_evidence_review/api.py",
+      "sha256": "cc3220bf5855d7ba4e0353a3e41a0bebd4d42e7e9582d486b17998470d848898",
+      "bytes": 880
+    },
+    {
+      "path": "src/mail_evidence_review/cli.py",
+      "sha256": "5b5510be0d9e93612ea983658497a541f755db98629d5938c946503f5761b65e",
+      "bytes": 1433
+    },
+    {
+      "path": "src/mail_evidence_review/contracts.py",
+      "sha256": "189e21067cbeeb7f41294a94f17498bdc84552c3406e48871bdb7a0e4dbf0cf4",
+      "bytes": 3458
+    },
+    {
+      "path": "src/mail_evidence_review/encoding.py",
+      "sha256": "ea8e826912977d81709be410328d42aa7c8deaf4b75f88d70c7f255472f72c17",
+      "bytes": 2745
+    },
+    {
+      "path": "src/mail_evidence_review/files.py",
+      "sha256": "5c7bcde9adb23bc3f6384ba2f7664608cb273183cd32f251389684404be3750b",
+      "bytes": 2224
+    },
+    {
+      "path": "src/mail_evidence_review/mime.py",
+      "sha256": "ffdf32190ee7e809f33dca9e7806c1bdb830ef878aef20c4bc4a688e5cfef31a",
+      "bytes": 7750
+    },
+    {
+      "path": "src/mail_evidence_review/parameters.py",
+      "sha256": "1e756981d4b7b15260316b456dcddb9b5493794b832d565679cd0b564b683b62",
+      "bytes": 6914
+    },
+    {
+      "path": "src/mail_evidence_review/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/mail_evidence_review/render.py",
+      "sha256": "cb2139b354afecbe4dc848f3c23429144cff2fa8ab590f1702134501009a10ee",
+      "bytes": 1014
+    },
+    {
+      "path": "src/mail_evidence_review/timeline.py",
+      "sha256": "54707da81079718f8f3c7c8417db3ebff16c6c8734613fed9f7f3dd89e384089",
+      "bytes": 8566
+    },
+    {
+      "path": "src/mail_evidence_review/wire.py",
+      "sha256": "55169f776222884cda0418d424dbbe857deb15effb785f6c237640918dce7184",
+      "bytes": 3284
+    },
+    {
+      "path": "tests/test_review.py",
+      "sha256": "bff5834b280eeccfe2592798b0353e8a4804759d524b4f66cff0115588db0d02",
+      "bytes": 21412
+    },
+    {
+      "path": "tests/test_safe_read_capabilities.py",
+      "sha256": "d9475d5aa2c120d5455629cbd5ecc42a021964746d5f312cc5f7139e29eb59f7",
+      "bytes": 5929
     }
-  ],
-  "bounds": "All listed runtime/tests/docs/package/CI/source evidence/license/NOTICE files read in full; this self inventory excluded; upstream scope separately SOURCE_REVIEW.json; no package/remote CI success inferred",
-  "current_attribution_version": "0.1.1",
-  "current_implementation_author": "dhtfish98",
-  "current_validation": "ATTRIBUTION_UPDATE.json",
-  "current_functional_revision": "Positive mandatory safe-file flags and typed, operation-complete dir_fd support guard; current full inventory in SOURCE_MANIFEST.json.",
-  "current_source_manifest": "SOURCE_MANIFEST.json",
-  "inventory_exclusions": "This review inventory and SOURCE_MANIFEST.json exclude their own/recursive manifest bytes; full current repository file identities are in SOURCE_MANIFEST.json and external batch report."
+  ]
 }

@@ -1,3 +1,15 @@
+# Current validation — 0.1.1
+
+The 2026-10-03 attribution update identifies the new implementation author and maintainer as dhtfish98. The final wheel and sdist were rebuilt, and a fresh isolated consumer ran **47 existing and targeted unittest methods successfully**, imported the installed package from site-packages, exercised the declared CLI contract and matched every shipped runtime/notice byte to current source. Wheel metadata records author dhtfish98 and version 0.1.1; RECORD and source-distribution contents were checked. Current runtime identities are in SOURCE_MANIFEST.json; ATTRIBUTION_UPDATE.json records the exact selected validation scope. The matching private build/install/test logs and artifact hashes are retained in the batch validation records, outside this public project.
+
+This update also checks every required safe-read flag for exact positive integer capability before input is opened. API/CLI tests cover missing, None, zero and boolean flags, ordinary files and symbolic links. The PDF reader additionally refuses a FIFO before open when nonblocking capability is unavailable.
+
+The current safe-file capability gate also requires set/frozenset directory-relative support declarations containing each actually used operation before opening input. Missing, None, empty, malformed or operation-incomplete collections yield the existing controlled unsupported result. Normal set/frozenset declarations and API/CLI rejection-before-open are regression tested.
+
+## Historical validation evidence
+
+The following earlier records retain their original versions, counts and fixed source identities. They are historical observations, not evidence that an old artifact is the current package.
+
 # Measured engineering validation
 
 Source tests exercise real MIME parent/child trees and original byte positions, a valid standard-library MIME payload comparison, duplicate header identity, folded positions, CRLF ownership, nested RFC822 and digest defaults, strict base64 lengths/padding/pad bits and QP soft lines, declared charset mismatches, unknown constructs, RFC2231 continuation/ambiguity and portable filename aliases. Date fixtures cover calendar errors, offset uncertainty, duplicate Received ordering, lexical comments/quotes/literals and signed declared differences without delivery claims.

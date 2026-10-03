@@ -1,5 +1,8 @@
 # MailEvidenceReview
 
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.1**. Upstream authors and reused components retain their original attribution.
+
+
 Review one authorized local EML byte snapshot without opening attachment content in a mail client. The independent parser records exact header order and identity, MIME tree and wire spans, attachment payload digests and untrusted filename metadata, and header-declared dates/Received fragments. The Python standard library is the only runtime dependency. Python 3.11–3.14 and POSIX directory-relative no-follow file operations are the selected implementation platform.
 
 ```sh
@@ -33,3 +36,5 @@ Date/Resent-Date and Received occurrences retain their own raw digests and locat
 Defaults cap input at 4 MiB, 65,536 physical lines, 64 KiB per entity header, 8 KiB unfolded fields, 4,096 fields, 512 parts, depth 16, 64 parameters, 16 comment nesting, 2 MiB leaf wire payload, 8 MiB total decoded bytes, 32 MiB cumulative entity work, 512 findings and 512 KiB compact JSON report. Partial/over-budget reports cannot become complete; a report-budget fallback retains input identity and known defect count. HTML expands the bounded JSON facts into escaped rows. Reader rejects every symlink component, non-regular files, observed changes and byte limits; it does not claim protection against every concurrent rename or post-return mutation. Use physical paths on macOS (`/private/tmp` rather than `/tmp` aliases).
 
 See [source review](SOURCE_REVIEW.json), [defensive scope](DEFENSIVE_SCOPE.md) and [validation](VALIDATION.md). Primary selected format references are [RFC 5322](https://www.rfc-editor.org/rfc/rfc5322.html), [RFC 2045](https://www.rfc-editor.org/rfc/rfc2045.html), [RFC 2046](https://www.rfc-editor.org/rfc/rfc2046.html) and [RFC 2231](https://www.rfc-editor.org/rfc/rfc2231.html). Their complete conformance or every extension is not claimed.
+
+Safe local file input requires positive integer `O_NOFOLLOW`, `O_NONBLOCK`, `O_DIRECTORY` flags, plus directory-relative operations only where used by this reader. Missing, None, zero or boolean flags return the existing controlled unsupported/error result before opening input. File-reader validation covers macOS/Linux; native Windows safe file reading is not established.

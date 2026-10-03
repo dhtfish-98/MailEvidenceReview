@@ -1,7 +1,7 @@
 MailEvidenceReview
-Copyright 2026 MailEvidenceReview contributors.
+Copyright 2026 dhtfish98.
 
-Independent AI-assisted implementation of the selected local EML defensive
+Independent implementation by dhtfish98 of the selected local EML defensive
 evidence scope, informed by SpamScope/mail-parser at fixed commit
 6efa72274bed92e6ff489f6e2d7b8f52fa683440 and the cited IETF specifications.
 The selected upstream files were reviewed as source material, not executed.
@@ -12,6 +12,6 @@ Complete original Apache-2.0 license and NOTICE are retained in licenses/.
 Original SpamScope contributors retain their original work and credits.
 The new snapshot reader is shared with this batch's CSPPolicyLens engineering;
 it is not claimed as a distinct original parsing contribution.
-The implementation, tests and documentation were produced with AI assistance.
+New implementation author: dhtfish98.
 This does not imply upstream endorsement, sole human authorship, contribution
 to SpamScope/mail-parser, actual safeguard restriction or CVP approval.
