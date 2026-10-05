@@ -33,12 +33,12 @@
     {
       "original": "ORIGIN.md",
       "stored": "项目文档/ORIGIN.md",
-      "sha256": "905bae1cf370caa2248038266ce17f8d28548d7abf0d138b6a2088a48022a849"
+      "sha256": "e160b9c6aa23c9253532f056215f2f950f69f0f386bda527a52d4b157b3fa9eb"
     },
     {
       "original": "README.md",
       "stored": "项目文档/README.md",
-      "sha256": "0a5fff186ce4f525eb840be4a5f417c2de7d3d5da16c2f46f16555da16944424"
+      "sha256": "0885b85f9e2822e707758f3f7be731ee60c3e3a94d6e8f167cef31a897f05531"
     },
     {
       "original": "SOURCE_REVIEW.json",
@@ -48,7 +48,7 @@
     {
       "original": "VALIDATION.md",
       "stored": "项目文档/VALIDATION.md",
-      "sha256": "55f9160f44b357f8d514bba1490e9e856bae8b80591b92da9ef9f91086091af0"
+      "sha256": "5cfabbd1fbf17d52f69f40357506d218c116412701ca919d8e1ce5511c6f34af"
     },
     {
       "original": "evidence/reviewed-source.json",

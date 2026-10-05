@@ -1,6 +1,6 @@
 # Origin and implementation attribution
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.4**.
 
 The selected mail-parser source, fixed commit and complete selected-file identities are recorded in SOURCE_REVIEW.json. No original implementation, captured mail or documentation is bundled; separate original license/NOTICE reference copies are omitted. The new Python implementation does not import or wrap mail-parser; it implements the bounded EML/MIME byte-evidence contract described in README.md. The secure snapshot reader pattern is shared with CSPPolicyLens, as recorded in NOTICE; it is reuse, not a new parsing contribution.
 
