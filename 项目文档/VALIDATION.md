@@ -1,3 +1,5 @@
+> 本页保留 0.1.2 的历史验证记录；0.1.3 的发布验证状态请以对应提交的 GitHub Actions 和 Release 资产为准。
+
 # Current licensing validation — 0.1.2
 
 This patch removes only 2 confirmed unused complete reference-license/notice copies. New implementation author remains dhtfish98. Runtime parsing and evidence interpretation are unchanged; runtime changes are package version constants and any existing version display. The new source suite ran **47 unittest methods with nonzero PASS**. Current source identities are in SOURCE_MANIFEST.json, and LICENSE_CLEANUP.json describes the exact licensing boundary. Wheel and sdist reconstruction, fresh isolated consumer tests, CLI contracts, runtime/notice byte identity and package metadata are independently bound to the new assets in the batch release records; source tests alone do not prove those outcomes. New hosted CI and publication remain separate observations.
